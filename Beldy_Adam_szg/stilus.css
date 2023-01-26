@@ -1,0 +1,87 @@
+body{
+    background-image: url(kepek/black.png);
+    color: beige;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-color: gray;
+    font-family: Arial, Verdana, sans-serif;
+    box-sizing: border-box;
+    display: grid;
+    margin: auto;
+    height: 700px;
+    width: 90%;
+    max-width: 900px;
+
+}
+.kep img{
+    height: auto;
+    width: 25%;
+    float: right;
+}
+
+header img{
+    width: 100%;
+}
+
+header{
+
+    grid-template-areas: h;
+}
+
+nav ul{
+    text-align: center;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(12, auto);
+}
+
+nav li{
+    border: 1px solid rgb(109, 109, 109);
+}
+
+nav ul li a{
+    margin: 10px;
+    color: beige;
+    text-decoration: none;
+}
+
+nav ul:active{
+    background-color: rgb(218, 141, 0);
+}
+
+
+nav{
+    display: inline;
+    background-color: rgb(41, 41, 41);
+    display: grid;
+    grid-template-areas: n;
+}
+
+article{
+    display: grid;
+    grid-template-areas: a;
+}
+
+section{
+    grid-template-areas: s;
+}
+
+aside{
+    grid-template-areas: as;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(218, 141, 0);
+    grid-template-areas: f;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    
+}
